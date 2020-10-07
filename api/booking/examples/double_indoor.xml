@@ -1,0 +1,80 @@
+<bookingRequest xmlns="http://www.bring.no/booking/" testIndicator="false">
+  <schemaVersion>1</schemaVersion>
+  <clientUrl>https://example.com/</clientUrl>
+  <consignments>
+    <consignment correlationId="0SPA0001007">
+      <shippingDateTime>2020-10-08T00:23:02+02:00</shippingDateTime>
+      <parties>
+        <sender>
+          <name>FASHION BOX S.P.A.</name>
+          <addressLine>VIA MARCOAI , 1</addressLine>
+          <addressLine2>LOC.CASELLA</addressLine2>
+          <postalCode>0150</postalCode>
+          <city>OSLO</city>
+          <countryCode>NO</countryCode>
+          <reference>0SPA0001007</reference>
+          <contact>
+            <name>Tore mottaker</name>
+            <email>tore@mottakertest.no</email>
+            <phoneNumber>88888888</phoneNumber>
+          </contact>
+        </sender>
+        <recipient>
+          <name>MERCUS YRKESKLADER MALMO</name>
+          <addressLine>KANTYXEGATAN 25J</addressLine>
+          <addressLine2/>
+          <postalCode>0160</postalCode>
+          <city>OSLO</city>
+          <countryCode>NO</countryCode>
+          <reference>dafdsfasd</reference>
+          <additionalAddressInfo>sdfdf</additionalAddressInfo>
+          <contact>
+            <name>Tore mottaker</name>
+            <email>tore@mottakertest.no</email>
+            <phoneNumber>88888888</phoneNumber>
+          </contact>
+        </recipient>
+      </parties>
+      <product>
+        <id>DOUBLE_INDOOR</id>
+        <customerNumber>PARCELS_NORWAY-xxxxxxxxxx</customerNumber>
+        <additionalServices>
+          <additionalService>
+            <id>1122</id>
+          </additionalService>
+          <additionalService>
+            <id>1133</id>
+          </additionalService>
+          <additionalService>
+            <id>1123</id>
+            <numberOfItems>1</numberOfItems>
+          </additionalService>
+          <additionalService>
+            <id>1139</id>
+            <numberOfItems>1</numberOfItems>
+          </additionalService>
+          <additionalService>
+            <id>1124</id>
+            <numberOfItems>1</numberOfItems>
+          </additionalService>
+          <additionalService>
+            <id>1125</id>
+            <numberOfItems>1</numberOfItems>
+          </additionalService>
+        </additionalServices>
+      </product>
+      <packages>
+        <package>
+          <weightInKg>1.26</weightInKg>
+          <goodsDescription/>
+          <dimensions>
+            <heightInCm>13</heightInCm>
+            <widthInCm>23</widthInCm>
+            <lengthInCm>10</lengthInCm>
+          </dimensions>
+          <packageType>hd_eur</packageType>
+        </package>
+      </packages>
+    </consignment>
+  </consignments>
+</bookingRequest>
